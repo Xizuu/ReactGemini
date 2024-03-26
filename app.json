@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "ReactGemini",
+    "slug": "ReactGemini",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/gemini.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/gemini.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/gemini.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "app.reactgemini.beta"
+    },
+    "web": {
+      "favicon": "./assets/gemini.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6d090e82-5ca5-4d5c-a499-79bbc335d7ad"
+      }
+    }
+  }
+}
